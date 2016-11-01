@@ -1,0 +1,336 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font: 12px Helvetica,Arial,sans-serif;
+}
+
+.header {
+	height: 28px;
+    color: #d5d5d5;
+    background-color: #545652;
+    min-width: 950px;
+    display: flex;
+    justify-content: space-between;
+}
+.header li {
+	padding: 0 12px;
+	height: 28px;
+	line-height: 28px;
+	display: inline-block;
+	text-align: center;
+}
+.header li:hover {
+	color: #fff;
+	cursor: pointer;
+}
+.content-wrap {
+	min-width: 950px;
+	height: 74px;
+	background-color: #edf4ed;
+	margin-bottom: 40px;
+	
+}
+.content-wrap .content {
+	width: 950px;
+	height: 57px;
+	padding: 12px 0 5px ;
+	margin: 0 auto;
+	position: relative;
+}
+.content-wrap .logo {
+	float: left;
+	width: 184px;
+	height: 57px;
+	margin-right: 13px;
+	background: url(./img/db2.png) no-repeat 0 12px;
+}
+.content-wrap .items {
+	float: left;
+	margin-top: 15px;
+}
+.content-wrap .items ul {
+	height: 24px;
+}
+.content-wrap .items img {
+	margin-bottom: 5px;
+}
+.content-wrap .items li {
+	line-height: 24px;
+	color: #072;
+	font-size: 15px;
+	display: inline;
+	margin-right: 20px;
+}
+.content-wrap .search {
+	padding: 10px 0 15px;
+	position: absolute;
+	right: 0;
+}
+.content-wrap .one {
+	border-width: 0;
+	padding-left: 10px;
+	width: 242px;
+	height: 28px;
+}
+.footer {
+	width: 950px;
+	margin: 0 auto;
+	display: flex;
+}
+.footer .left {
+	width: 590px;
+	height: 638px;
+	margin-right: 50px;
+}
+.footer .right {
+	width: 310px;
+	height: 638px;
+}
+.footer .right .one {
+	margin: 40px 0;
+	height: 220px;
+}
+.footer .hd {
+	margin-bottom: 15px;
+}
+.footer .hd h2{
+    padding-bottom: 10px;
+    margin: 0;
+    border-bottom: 1px solid #f0f0f0;
+    color: #45618c;
+    font-size: 16px;
+}
+.footer .hd .more {
+	float: right;
+    margin-top: 2px;
+    font-size: 12px;
+    background-color: white;
+}
+.footer .bd li {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 46%;
+    padding-top: 50%;
+    margin-left: 3%;
+    overflow: hidden;
+}
+.footer .bd li img {
+	position: absolute;
+    top: 0;
+    left: 0;
+    width: 143px;
+    height: auto;
+}
+.footer .title {
+	display: block;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: #669;
+}
+.footer .price-wrapper {
+	text-align: center;
+}
+.footer .price-wrapper::before {
+	content: '¥';
+    margin-right: 2px
+}
+.footer .two {
+	width: 300px;
+    height: 250px;
+}
+.footer .left .search {
+	position: relative;
+    overflow: hidden;
+    zoom: 1;
+    margin-bottom: 28px;
+    background-color: #f7f7f8;
+    padding: 7px;
+}
+.footer .inp {
+	height: 30px;
+    cursor: text;
+    border: 1px solid #dcdcdc;
+    background-color: #fff;
+}
+.footer .inp input {
+	background: #fff;
+    width: 94%;
+    margin: 0;
+    text-align: left;
+    height: 30px;
+    padding-left: 6px;
+    height: 28px\9;
+    line-height: 28px\9;
+    outline: 0;
+    border-width: 0;
+}
+.footer .btn {
+	position: absolute;
+    top: 6px;
+    right: 6px;
+    width: 30px;
+    height: 35px;
+    zoom: 1;
+    overflow: hidden;
+}
+.footer .btn input {
+	width: 100%;
+    height: 100%;
+    font-size: 0;
+    padding: 35px 0 0 0;
+    overflow: hidden;
+    background: url(./img/db1.png) no-repeat 47% 45%;
+    color: transparent;
+    cursor: pointer;
+    border-width: 0;
+}
+.footer .left .search-items {
+    margin-right: 35px;
+    width: 65px;
+    font-size: 0;
+    float: left;
+}
+
+.footer .left .search-items li{
+	text-align: center;
+	width: 65px;
+    display: inline-block;
+    zoom: 1;
+    margin-bottom: 12px;
+    line-height: 1.2;
+    font-size: 12px;
+    padding: 3px 0;
+}
+.footer .left .on, .footer .left .search-items li:hover {
+	background: #7fc06e;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.footer .top {
+	font-size: 13px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+}
+.footer .top .a {
+	display: inline-block;
+    padding: 3px 23px;
+    margin-right: 10px;
+    background: #F5F5F5;
+}
+.footer .list {
+	margin-bottom: 27px;
+    overflow: hidden;
+    zoom: 1;
+    padding-right: 3px
+}
+.footer .list .demo {
+	position: relative;
+    width: 100%;
+    zoom: 1;
+    padding-top: 20px;
+    margin: -1px 0 17px;
+    border-top: 1px dashed #ccc;
+}
+.footer .demo .pic {
+	float: right;
+    width: 62px;
+    text-align: right;
+    position: relative;
+}
+.footer .search-result {
+    overflow: hidden;
+
+}
+.footer .top {
+    height: 26px;
+    font-size: 13px;
+    border-bottom: 1px dashed #CCC;
+    padding-bottom: 15px;
+    margin-bottom: 10px;
+
+}
+.footer .top a {
+    height: 20px;
+    background: #F5F5F5 url(./img/douban1.gif) no-repeat right 0;
+    display: inline-block;
+    padding: 3px 23px;
+    margin-right: 10px;
+    font-size: 13px;
+    line-height: 20px;
+}
+.footer .top span {
+    font-size: 12px;
+    color: gray;
+}
+.result {
+    position: relative;
+    width: 100%;
+    zoom: 1;
+    padding-top: 20px;
+    margin: -1px 0 17px;
+}
+.result-list {
+    margin-bottom: 27px;
+    overflow: hidden;
+    zoom: 1;
+    padding-right: 3px;
+}
+.result::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.result .pic {
+    float: right;
+    width: 62px;
+    height: 60px;
+    text-align: right;
+    position: relative;
+    background-color: red;
+}
+.result .content {
+    overflow: hidden;
+}
+.result .content .title {
+    margin-bottom: 3px;
+    color: #5d5d5d;
+}
+.result .content p {
+    margin: 0;
+    color: #999;
+    line-height: 1.5;
+}
+.result .content h3 {
+    width: 85%;
+    height: auto;
+    margin: 0 0 6px 0;
+    word-wrap: break-word;
+    background: transparent;
+    font-size: 14px;
+
+}
+.result .subject-cast {
+    margin-left: 10px;
+}
+.rating_nums, .rating_num {
+    color: #e09015;
+    font-size: 12px;
+    padding: 0 3px;
+}
+.result_ft {
+    line-height: 32px;
+    text-align: center;
+    height: 32px;
+    background-color: #f8f8f8
+}
+.result_ft:hover {
+    background-color: #f1f1f1
+}
+
+
